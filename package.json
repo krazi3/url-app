@@ -1,0 +1,42 @@
+{
+  "name": "URL_app",
+  "version": "1.0.0",
+  "description": "An app to retrieve URL metadata",
+  "main": "index.js",
+  "author": "farhansalam",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js --exec node_modules/.bin/babel-node",
+    "start": "node_modules/.bin/babel-node index.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-validation": "^1.0.1",
+    "html-metadata": "^1.6.2",
+    "http-status": "^0.2.3",
+    "joi": "^10.1.0",
+    "mongoose": "^4.7.6",
+    "morgan": "^1.7.0",
+    "require-directory": "^2.1.1",
+    "serve-favicon": "^2.3.2"
+  },
+  "devDependencies": {
+    "axios": "^0.15.3",
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "css-loader": "^0.26.1",
+    "express-generator": "^4.14.0",
+    "html-webpack-plugin": "^2.28.0",
+    "nodemon": "^1.11.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "style-loader": "^0.13.1",
+    "webpack": "1.x.x"
+  }
+}
